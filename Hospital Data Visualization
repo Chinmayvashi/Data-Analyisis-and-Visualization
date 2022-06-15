@@ -1,8 +1,13 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
+print(" ")
 print("Data Analysis and Visualization")
+print(" ")
+print("Project by students of ")
+print(" ")
+print("BK BIRLA CENTRE FOR EDUCATION")
+print("Acedemic Year 2022-23")
 def Fun():
     print("Topic - Data Analysis")
     print("===================")
@@ -48,7 +53,7 @@ def bar_plot():
         plt.show()
     
 Fun()
-YC = int(input("Enter 1 Your Choice: "))
+YC = int(input("Enter Your Choice: "))
 
 while YC == 1 or 2 or 3 or 4 or 5 or 6:
 
