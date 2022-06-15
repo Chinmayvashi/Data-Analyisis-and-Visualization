@@ -2,15 +2,18 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+print("Data Analysis and Visualization")
 def Fun():
-    print("Topic - Data isualization")
+    print("Topic - Data Analysis")
+    print("===================")
+    print(" ")
     print("#1. For checking the data.")
     print("#2. Reading complete file without index.")
     print("===================")
     print("Topic - Data Visualization")
     print(" ")
     print("#3. Bar Graph")
-    print("    Press 1 to print the data for Score cases as per States.")
+    print("    Press 1 to visualize Bar Graph")
     print(" ")
     print("#4. For Exit")
     print("===============")
@@ -36,7 +39,7 @@ def bar_plot():
     plt.xlabel("States")
 
 
-    YC = int(input("Enter for Bar Graph"))
+    YC = int(input("Enter for 1 Bar Graph:"))
     
     if YC == 1:
         plt.ylabel("Score Cases")
@@ -51,12 +54,15 @@ while YC == 1 or 2 or 3 or 4 or 5 or 6:
 
     if YC == 1:
         Read_CSV()
+        print("Thank You for using...")
         break
     elif YC == 2:
         No_Index()
+        print("Thank You for using...")
         break
     elif YC == 3:
         bar_plot()
+        print("Thank You for using...")
         break
     elif YC == 4:
         print("Thank You for using...")
