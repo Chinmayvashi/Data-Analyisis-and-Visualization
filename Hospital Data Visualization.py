@@ -42,8 +42,8 @@ def bar_plot():
     YC = int(input("Enter for 1 Bar Graph:"))
     
     if YC == 1:
-        plt.ylabel("Score Cases")
-        plt.title("States Wise Health")
+        plt.ylabel("Health Rating")
+        plt.title("States Wise Health Rating")
         plt.bar(District, Score, color='b', width = 0.5)
         plt.show()
 #FOR OUTPUT
